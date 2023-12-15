@@ -52,7 +52,7 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.sk'
+                groupId = 'com.github.shiva-kumar-R'
                 artifactId = 'swipeablecard'
                 version = '1.0.0'
             }
