@@ -3,11 +3,13 @@ Android Library for Tinder-like swipeable cards
 
 ## How to install via GRADLE
 
-- Add the following code in your root build.gradle file:
+- Add the following code in your system.gradle file:
 ```
-repositories {
-    mavenCentral()
-    maven { url 'https://jitpack.io' }
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
 }
 ```
 
